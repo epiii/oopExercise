@@ -1,0 +1,49 @@
+package latihan1;
+import java.util.Scanner;
+
+public class soal1 {
+	public static void main(String[]args){
+		float a,b,res=0;
+//input bilangan 1
+		System.out.println("input bilangan 1(bulat) :");
+		Scanner x = new Scanner(System.in);
+		a=x.nextFloat();
+
+//input bilangan 2
+		System.out.println("input bilangan 2(bulat) :3");
+		Scanner y = new Scanner(System.in);
+		b=y.nextFloat();
+		
+//operator
+		System.out.println("Pilihan operator ;\n");
+		System.out.println("'*' kali ");
+		System.out.println("'+' tambah");
+		System.out.println("'/' bagi");
+		System.out.println("'%' sisa bagi");
+		System.out.println("'-' kurang");
+		
+		System.out.println("input salah satu operator : ");
+		Scanner opt=new Scanner(System.in);
+		o=opt.nextInt();
+		
+		switch(o){
+			case '*': 
+				res=a*b;
+			break;
+			case '+': 
+				res=a+b;
+			break;
+			case '/': 
+				res=a/b;
+			break;
+			case '%': 
+				res=a%b;
+			break;
+			case '-': 
+				res=a-b;
+			break;
+		}
+//output
+		System.out.println("tampil :"+res);
+	}
+}

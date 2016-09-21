@@ -1,0 +1,29 @@
+/**
+ * 
+ */
+package latihan1;
+import java.util.Scanner;
+public class decoder5 {
+	public static void main(String[] args) {
+		System.out.println("input angka :");
+		Scanner scn = new Scanner(System.in);
+		String foo = scn.nextLine();
+		int j=10,jj=0;
+		while(){
+			
+		}
+		for (int i = 0; i < foo.length(); i++) {
+			char x = foo.charAt(i);
+			switch(x){
+				case '1':
+					System.out.println("A");
+				break;
+				case '2':
+					System.out.println("B");
+				break;
+			}
+		}
+//		String joined = sb.toString();
+//		System.out.println(joined);
+	}
+}

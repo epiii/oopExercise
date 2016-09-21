@@ -1,0 +1,33 @@
+/**
+ * 
+ */
+package latihan1;
+import java.util.Scanner;
+public class decoder5 {
+	public static void main(String[] args) {
+
+//		if(scn==null){
+//			System.out.println("kosong");
+//		}else {
+//			System.out.println("ada");
+//		}
+		System.exit(0);
+
+		String foo = scn.nextLine();
+		int j=foo.length(),jj=0;
+
+		while(jj<j){
+			for (int i = 0; i < foo.length(); i++) {
+				char x = foo.charAt(i);
+				switch(x){
+					case '1':
+						System.out.println("A");
+					break;
+					case '2':
+						System.out.println("B");
+					break;
+				}
+			}jj++;
+		}
+	}
+}

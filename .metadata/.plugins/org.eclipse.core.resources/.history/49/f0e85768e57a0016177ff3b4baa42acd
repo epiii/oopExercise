@@ -1,0 +1,10 @@
+package gallonToLiters;
+
+import java.util.Scanner;
+
+public class gallonToLiter {
+	public static void main(String[]args){
+		Scanner sc = new Scanner(System.in);
+	    int i = sc.nextInt();
+	}
+}
