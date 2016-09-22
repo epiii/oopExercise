@@ -1,0 +1,11 @@
+/**
+ * 
+ */
+package latihan2;
+public class DimensionalShapeMain {
+	public static void main(String[] args) {
+		DimensionalShape ds = new DimensionalShape();
+		System.out.println("jumlah sisi : "+ds.numSide);
+		System.out.println("teratur / tidak : "+ds.regular);
+	}
+}

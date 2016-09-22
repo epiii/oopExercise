@@ -1,0 +1,21 @@
+/**
+ * 
+ */
+package latihan2;
+
+/**
+ * @author epi.corp
+ *
+ */
+public class DimensionalShapeMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		DimensionalShape ds = new DimensionalShape();
+		System.out.print("jumlah sisi : "+ds.numSide);
+		System.out.print("teratur / tidak : "+ds.regular);
+	}
+
+}

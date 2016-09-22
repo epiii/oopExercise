@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package latihan2;
+public class DimensionalShapeMain {
+	public static void main(String[] args) {
+//		DimensionalShape ds = new DimensionalShape();
+		DimensionalShape ds2 = new DimensionalShape(3,true);
+		
+//		tanpa parameter 
+		System.out.println("jumlah sisi : "+ds2.);
+//		System.out.println("teratur / tidak : "+ds.regular);
+		
+//		parameter
+//		System.out.println("jumlah sisi : "+ds.numSide);
+//		System.out.println("jumlah sisi : "+ds.DimensionalShape(2,false));
+	}
+}

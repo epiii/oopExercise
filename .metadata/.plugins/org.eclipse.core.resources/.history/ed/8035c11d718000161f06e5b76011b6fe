@@ -1,0 +1,36 @@
+package latihan2;
+
+public class DimensionalShape {
+	private int numSide;
+	private boolean regular;
+
+////	constructor with parameter
+//	public DimensionalShape(int numSide, boolean regular){
+//		this.numSide=numSide;
+//		this.regular=true;
+//	}
+//
+//	private int getNumSide() {
+//		return numSide;
+//	}
+//
+//	private void setNumSide(int numSide) {
+//		this.numSide = numSide;
+//	}
+
+//	private boolean isRegular() {
+//		return regular;
+//	}
+//
+//	private void setRegular(boolean regular) {
+//		this.regular = regular;
+//	}
+//
+	//	constructor 
+	public DimensionalShape(){
+		numSide=0;
+		regular=true;
+	}
+	
+	
+}

@@ -1,0 +1,23 @@
+/**
+ * 
+ */
+package latihan2;
+public class DimensionalShapeMain {
+	public static void main(String[] args) {
+		DimensionalShape ds = new DimensionalShape();
+		
+		DimensionalShape ds2 = new DimensionalShape();
+		ds2.setNumSide(4);
+		ds2.setRegular(false);
+		
+//		tanpa parameter 
+		System.out.println("construction Default");
+		System.out.println("> jumlah sisi : "+ds.numSide);
+		System.out.println("> teratur / tidak : "+ds.regular);
+
+//		dg parameter 
+		System.out.println("construction with params ");
+		System.out.println("> jumlah sisi : "+ds2.getNumSide());
+		System.out.println("> teratur / tidak : "+ds2.isRegular());
+	}
+}
