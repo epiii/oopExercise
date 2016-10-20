@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package latihan2;
+
+import java.util.Scanner;
+
+/**
+ * @author epi.corp
+ *
+ */
+public class studentMain {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		Scanner scn = new Scanner();
+		System.out.println("input nama :");
+	}
+
+}

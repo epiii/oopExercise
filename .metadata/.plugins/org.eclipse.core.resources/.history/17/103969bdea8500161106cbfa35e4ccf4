@@ -1,0 +1,15 @@
+package latihan2;
+import java.util.Scanner;
+
+public class StudentMain {
+	public static void main(String[] args) {
+//parameter 
+		Student mary = new Student("Mary Jones",14,46);
+		Student john = new Student("John Stiner",60,137);
+		Student ari = new Student("Ari Samala",31,69);
+
+		System.out.println("nama :"+mary.getName());
+		System.out.println("quality point :"+mary.getQualityPoints());
+		System.out.println("GPA :"+mary.getGradePointAvg());
+	}
+}

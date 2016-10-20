@@ -1,0 +1,18 @@
+/**
+ * 
+ */
+package latihan2;
+
+/**
+ * @author epi.corp
+ *
+ */
+public class Card {
+	String suit,name;
+	int points;
+	Card(int n1, int n2){
+		suit=getSuit(n1);
+		name=getName(n2);
+		points=getPoints(name);
+	}
+}

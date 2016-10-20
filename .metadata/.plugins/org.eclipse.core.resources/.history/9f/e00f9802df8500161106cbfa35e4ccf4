@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package latihan2;
+
+/**
+ * @author epi.corp
+ *
+ */
+public class Number3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+
+	}
+
+}

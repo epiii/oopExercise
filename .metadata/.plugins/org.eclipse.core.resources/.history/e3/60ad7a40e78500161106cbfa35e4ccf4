@@ -1,0 +1,35 @@
+/**
+ * 
+ */
+package latihan2;
+
+/**
+ * @author epi.corp
+ *
+ */
+public class Student {
+	private String name;
+	private int credits;
+	private float gradePointAvg, qualityPoints;
+	Student(){
+		name          ="";  
+		gradePointAvg =0;
+		qualityPoints  =0;
+	}
+	Student(String name, int credits, float qualityPoints){
+		gradePointAvg =gradePointAvg;
+		qualityPoints =qualityPoints;
+		name=name;
+		credits=credits;
+	}
+
+	public float getGradePointAvg(){
+		return qualityPoints/credits;
+	}
+	public float getQualityPoints(){
+		return qualityPoints;
+	}
+	public String getName(){
+		return name;
+	}
+}

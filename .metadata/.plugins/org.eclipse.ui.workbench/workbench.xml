@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="31" version="2.0">
+<workbench progressCount="29" version="2.0">
 <workbenchAdvisor/>
 <window height="371" maximized="true" width="697" x="676" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -11,7 +11,7 @@
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="153" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="129" y="22"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="99" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="130" y="22"/>
@@ -28,10 +28,21 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic"/>
+<presentation id="org.eclipse.ui.internal.presentations.classic.WorkbenchPresentationFactoryClassic">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentMain.java" partName="StudentMain.java" path="E:/nguli/HD/7. Sem1/Pemrograman Berorientasi Objek (PBO)/oopExercise/oopLatihan1/src/latihan2/StudentMain.java" title="StudentMain.java" tooltip="oopLatihan1/src/latihan2/StudentMain.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/oopLatihan1/src/latihan2/StudentMain.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" partName="Student.java" path="E:/nguli/HD/7. Sem1/Pemrograman Berorientasi Objek (PBO)/oopExercise/oopLatihan1/src/latihan2/Student.java" title="Student.java" tooltip="oopLatihan1/src/latihan2/Student.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/oopLatihan1/src/latihan2/Student.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="612" selectionTopPixel="316"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc">
@@ -68,7 +79,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>&#x0A;<category IMemento.internal.id="Errors"/>
-<category IMemento.internal.id="Errors (3 items)"/>
+<category IMemento.internal.id="Warnings"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -114,7 +125,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -200,8 +211,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.19427711" ratioLeft="258" ratioRight="1070" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.71728593" ratioLeft="444" ratioRight="175" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.120295204" ratioLeft="163" ratioRight="1192" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.6785137" ratioLeft="420" ratioRight="199" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -327,7 +338,162 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/oopLatihan1/src/latihan2/Student.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/oopLatihan1/src/latihan2/StudentMain.java"/>
+</editors>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="240" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="397" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1488" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="76" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="187" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="420" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="207" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1491" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="134" y="51"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="544" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="116" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="225" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1493" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="275" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="943" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="943" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="963" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1022" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="531" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="772" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1110" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1418" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1481" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="317" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="999" y="0"/>
+</item>
+<item historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+<item historyLabel="Student.java" index="0">
+<position info="not_deleted" x="612" y="0"/>
+</item>
+<item active="true" historyLabel="StudentMain.java" index="1">
+<position info="not_deleted" x="1157" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
@@ -344,14 +510,38 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Student.java" tooltip="oopLatihan1/src/latihan2/Student.java">
+<persistable path="/oopLatihan1/src/latihan2/Student.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="StudentMain.java" tooltip="oopLatihan1/src/latihan2/StudentMain.java">
+<persistable path="/oopLatihan1/src/latihan2/StudentMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Card.java" tooltip="oopLatihan1/src/latihan2/Card.java">
+<persistable path="/oopLatihan1/src/latihan2/Card.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CardMain.java" tooltip="oopLatihan1/src/latihan2/CardMain.java">
+<persistable path="/oopLatihan1/src/latihan2/CardMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="studentMain.java" tooltip="oopLatihan1/src/latihan2/studentMain.java">
+<persistable path="/oopLatihan1/src/latihan2/studentMain.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="decoder5_2.java" tooltip="oopLatihan1/src/latihan1/decoder5_2.java">
+<persistable path="/oopLatihan1/src/latihan1/decoder5_2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="latihan1.java" tooltip="oopLatihan1/src/latihan1/latihan1.java">
+<persistable path="/oopLatihan1/src/latihan1/latihan1.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Animal.java" tooltip="oopLatihan1/src/latihan2/Animal.java">
+<persistable path="/oopLatihan1/src/latihan2/Animal.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="asterisk2.java" tooltip="oopLatihan1/src/latihan2/asterisk2.java">
+<persistable path="/oopLatihan1/src/latihan2/asterisk2.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_1operator2.java" tooltip="oopLatihan1/src/latihan1/_1operator2.java">
 <persistable path="/oopLatihan1/src/latihan1/_1operator2.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="decoder5.java" tooltip="oopLatihan1/src/latihan1/decoder5.java">
 <persistable path="/oopLatihan1/src/latihan1/decoder5.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="decoder5_2.java" tooltip="oopLatihan1/src/latihan1/decoder5_2.java">
-<persistable path="/oopLatihan1/src/latihan1/decoder5_2.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="decoder5_2.java" tooltip="latihan1/src/latihan1/decoder5_2.java">
 <persistable path="/latihan1/src/latihan1/decoder5_2.java"/>
@@ -364,27 +554,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="_1operator.java" tooltip="latihan1/src/latihan1/_1operator.java">
 <persistable path="/latihan1/src/latihan1/_1operator.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="leapYear.java" tooltip="latihan1/src/latihan1/leapYear.java">
-<persistable path="/latihan1/src/latihan1/leapYear.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="gallonToLiter.java" tooltip="GallonsToLiters/src/gallonToLiters/gallonToLiter.java">
-<persistable path="/GallonsToLiters/src/gallonToLiters/gallonToLiter.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="soal1.java" tooltip="latihan1/src/latihan1/soal1.java">
-<persistable path="/latihan1/src/latihan1/soal1.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="cobaSatu.java" tooltip="latihan1/src/latihan1/cobaSatu.java">
-<persistable path="/latihan1/src/latihan1/cobaSatu.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="cobaSatu.java" tooltip="latihan1/src/lat/cobaSatu.java">
-<persistable path="/latihan1/src/lat/cobaSatu.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ITable.java" tooltip="epiaje/src/ITable.java">
-<persistable path="/epiaje/src/ITable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Employee.java" tooltip="epiaje/src/com/anulah/aje/Employee.java">
-<persistable path="/epiaje/src/com/anulah/aje/Employee.java"/>
 </file>
 </mruList>
 </workbench>

@@ -1,6 +1,0 @@
-package latihan2;
-
-public class dimensionalShape {
-	public int numSide;
-	public boolean regular=true;
-}
