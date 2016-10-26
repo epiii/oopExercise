@@ -1,6 +1,6 @@
 package latihan3;
 
-public class studentMain {
+public class StudentMain {
 	public static void cetak(String str){
 		System.out.println(str);
 	}
